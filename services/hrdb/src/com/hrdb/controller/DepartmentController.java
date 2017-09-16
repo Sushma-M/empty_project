@@ -123,7 +123,7 @@ public Department createDepartment(@RequestBody Department department) {
 
     @ApiOperation(value = "Returns the paginated list of Department instances matching the optional query (q) request param. If there is no query provided, it returns all the instances. Pagination & Sorting parameters such as page& size, sort can be sent as request parameters. The sort value should be a comma separated list of field names & optional sort order to sort the data on. eg: field1 asc, field2 desc etc ")
     @RequestMapping(method = RequestMethod.GET)
-    @WMAccessVisibility(value = AccessSpecifier.APP_ONLY)
+    @WMAccessVisibility(value = AccessSpecifier.UNAVAILABLE)
     public Page<Department> findDepartments(@ApiParam("conditions to filter the results") @RequestParam(value = "q", required = false) String query, Pageable pageable) {
         LOGGER.debug("Rendering Departments list");
         return departmentService.findAll(query, pageable);

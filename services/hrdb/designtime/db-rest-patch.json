@@ -1,1 +1,5 @@
-{ }
+{
+  "DepartmentController" : {
+    "findDepartments" : "UNAVAILABLE"
+  }
+}
