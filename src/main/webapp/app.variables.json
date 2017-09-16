@@ -23,6 +23,17 @@
     "operation" : "gotoPage",
     "pageName" : "Main"
   },
+  "goToPage_saaa" : {
+    "_id" : "wm-goToPage_saaa-wm.NavigationVariable-1505562757592",
+    "name" : "goToPage_saaa",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "saaa",
+    "dataSet" : [ ],
+    "pageTransitions" : "none"
+  },
   "goToPage_wewe" : {
     "_id" : "wm-goToPage_wewe-wm.NavigationVariable-1505555791917",
     "name" : "goToPage_wewe",
